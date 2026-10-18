@@ -19,8 +19,11 @@ function onDesktop(event: MediaQueryListEvent) {
 }
 const active = (href: string) =>
   route.path === href || route.path.startsWith(`${href}/`);
-async function toggle() {
+async function toggle(event: MouseEvent) {
   opened.value = !opened.value;
+  projectsOpened.value = opened.value;
+  // Only move focus into the menu when it was opened with the keyboard.
+  if (event.detail !== 0) return;
   if (opened.value) {
     await nextTick();
     projectsButton.value?.focus();
@@ -41,13 +44,13 @@ async function openProjectsWithKeyboard() {
   projectsMenu.value?.querySelector<HTMLAnchorElement>(".projects-dropdown a")?.focus();
 }
 function onOutsideClick(event: PointerEvent) {
-  if (!projectsMenu.value?.contains(event.target as Node)) projectsOpened.value = false;
+  if (!opened.value && !projectsMenu.value?.contains(event.target as Node)) projectsOpened.value = false;
 }
 function onProjectsFocusOut(event: FocusEvent) {
-  if (!projectsMenu.value?.contains(event.relatedTarget as Node)) projectsOpened.value = false;
+  if (!opened.value && !projectsMenu.value?.contains(event.relatedTarget as Node)) projectsOpened.value = false;
 }
 function onKey(event: KeyboardEvent) {
-  if (event.key === "Escape" && projectsOpened.value) {
+  if (event.key === "Escape" && projectsOpened.value && !opened.value) {
     event.preventDefault();
     projectsOpened.value = false;
     projectsButton.value?.focus();

@@ -5,8 +5,9 @@ const reference = JSON.parse(readFileSync(new URL("../app/data/reference.json", 
 async function selectCategory(page: Page, label: string) {
   if ((page.viewportSize()?.width ?? 1350) <= 640) {
     await page.getByRole("button", { name: "Menu", exact: true }).click();
+  } else {
+    await page.getByRole("button", { name: "projects", exact: true }).click();
   }
-  await page.getByRole("button", { name: "projects", exact: true }).click();
   await page.getByRole("link", { name: label.toLowerCase(), exact: true }).click();
 }
 async function selectYear(page: Page, year: string) {
@@ -94,8 +95,14 @@ test("mobile menu traps focus, closes with Escape, and navigates", async ({
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/");
   const menu = page.locator(".menu-toggle");
-  await menu.click();
+  await expect(menu).toBeEnabled();
+  await menu.focus();
+  await menu.press("Enter");
   await expect(menu).toHaveAttribute("aria-expanded", "true");
+  await expect(page.locator("#projects-dropdown")).toBeVisible();
+  await expect(page.locator("#projects-dropdown a")).toHaveText([
+    "all", "media & pop-up", "commercial space", "heritage craft", "premium woodwork",
+  ]);
   await expect(
     page.getByRole("button", { name: "projects", exact: true }),
   ).toBeFocused();
