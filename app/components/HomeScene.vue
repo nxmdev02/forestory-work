@@ -37,7 +37,6 @@ onMounted(() => {
   if (!props.scene.video) return;
   preference = window.matchMedia("(prefers-reduced-motion: reduce)");
   preference.addEventListener("change", syncMotion);
-  imageReady = !!section.value?.querySelector("img")?.complete;
   observer = new IntersectionObserver(([entry]) => {
     visible = entry?.isIntersecting ?? false;
     syncMotion();

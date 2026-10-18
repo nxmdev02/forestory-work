@@ -207,7 +207,7 @@ test("office process follows scroll, sticky labels stack, Contact is not duplica
   for (const step of [1, reference.office.process.length - 1]) {
     await page.locator(".process-step").nth(step).evaluate((el) => el.scrollIntoView({ block: "center" }));
     await expect(page.locator(".process-step").nth(step)).toHaveClass(/active/);
-    await expect(page.locator(".process-image img").nth(step)).toHaveClass(/active/);
+    await expect(page.locator(".process-image .responsive-image").nth(step)).toHaveClass(/active/);
   }
   await page.locator("#services").evaluate((el) => el.scrollIntoView({ block: "start" }));
   await expect(page.locator(".office-navigation a").nth(2)).toHaveCSS("top", "180px");
