@@ -2,6 +2,7 @@ import reference from "./reference.json";
 
 export const site = {
   name: "forestory furniture",
+  description: "공간에 맞춰 만드는 주문제작 원목가구, 포레스토리.",
   shareImage: {
     url: "https://www.forestory.work/images/forestory-landscape-logo-v1.jpg",
     alt: "푸른 숲과 하늘을 배경으로 펼친 흰색 소나무와 forestory 로고",
