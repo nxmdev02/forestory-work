@@ -53,7 +53,7 @@ useSeoMeta({
           />
         </div>
         <p v-if="!filteredProjects.length" class="projects-empty">
-          선택한 조건에 해당하는 프로젝트는 준비 중입니다.
+          조건에 해당하는 프로젝트는 준비 중입니다.
         </p>
       </div>
     </main>
