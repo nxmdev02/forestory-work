@@ -45,9 +45,11 @@ const related = projects
     <SiteHeader :transparent="transparent" hero-shade />
     <main id="main" class="project-detail">
       <header ref="hero" class="project-hero">
-        <img
+        <ResponsiveImage
           :src="site.projectHero.image"
           :alt="site.projectHero.alt"
+          sizes="(max-width: 640px) max(100vw, 136svh), 100vw"
+          loading="eager"
           fetchpriority="high"
           :style="{ objectPosition: site.projectHero.objectPosition }"
         />
@@ -89,9 +91,10 @@ const related = projects
           :class="{ 'is-empty': !photo.src }"
           :aria-hidden="!photo.src ? true : undefined"
         >
-          <img
+          <ResponsiveImage
             v-if="photo.src"
             :src="photo.src"
+            sizes="33vw"
             :alt="photo.alt"
             :width="photo.width"
             :height="photo.height"
@@ -107,6 +110,7 @@ const related = projects
             v-for="item in related"
             :key="item.slug"
             :project="item"
+            sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1000px) calc((100vw - 56px) / 2), calc((100vw - 88px) / 4)"
           />
         </div>
       </section>

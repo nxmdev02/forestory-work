@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { scenes } from "~/data/site";
+import { scenes, site } from "~/data/site";
 useSeoMeta({
-  title: "forestory furniture — designing furniture, connecting people",
-  description:
-    "Considered interior architecture. Explore spaces designed to bring people, culture and function together.",
+  title: site.name,
+  ogTitle: site.name,
+  twitterTitle: site.name,
 });
 const current = ref(0);
 let observer: IntersectionObserver | undefined;

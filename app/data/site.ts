@@ -2,6 +2,12 @@ import reference from "./reference.json";
 
 export const site = {
   name: "forestory furniture",
+  shareImage: {
+    url: "https://www.forestory.work/images/forestory-landscape-logo-v1.jpg",
+    alt: "푸른 숲과 하늘을 배경으로 펼친 흰색 소나무와 forestory 로고",
+    width: 1200,
+    height: 630,
+  },
   email: "bos6079@naver.com",
   phone: "010 7752 6079",
   phoneHref: "+821077526079",

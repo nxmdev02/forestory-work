@@ -23,7 +23,7 @@ useSeoMeta({
       </header>
       <div class="archive-grid">
         <article
-          v-for="item in archiveItems"
+          v-for="(item, index) in archiveItems"
           :key="item.archiveNumber"
           class="archive-item"
         >
@@ -31,9 +31,11 @@ useSeoMeta({
             :href="`mailto:${site.email}?subject=${encodeURIComponent(`제품 문의: 아카이브 #${item.archiveNumber}`)}`"
             :aria-label="`아카이브 #${item.archiveNumber} ${item.object} 제품 문의`"
             ><div class="toned-image archive-photo" :class="{ 'is-empty': !item.image }">
-              <img
+              <ResponsiveImage
                 v-if="item.image"
                 :src="item.image"
+                sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1000px) 50vw, 33vw"
+                :loading="index < 2 ? 'eager' : 'lazy'"
                 :alt="item.object"
                 width="900"
                 height="1200"

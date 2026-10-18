@@ -1,0 +1,15 @@
+Asset: public/images/forestory-landscape-logo-v1.jpg
+Purpose: Expand the user-supplied circular painted forest logo into a rectangular social sharing image.
+Created: 2026-10-19
+Tool: Built-in image_gen, edit mode using the user-supplied logo.
+Export: 1200 x 630 JPEG, quality 90, mozjpeg.
+
+Final editing prompt:
+Edit the attached circular FORESTORY logo into a full rectangular landscape brand image, as though the landscape painting had always continued beyond the circular crop.
+Use case: precise-object-edit / outpainting.
+The attached image is the EDIT TARGET and the authoritative reference for the logo identity, text, painting style, palette, and composition. It is NOT a reference for a new unrelated logo.
+Output: landscape rectangle around 1.91:1, ideally 1536x800, edge-to-edge painted background.
+Remove the enclosing circular outlines and all white space outside the old circle. Seamlessly extend the existing atmospheric painted conifer forest/mountain valley and muted blue sky toward the left and right to fill the entire rectangle. Continue the same softly weathered painterly texture, subdued dusty turquoise, blue gray, dark forest greens, misty valley depth and gentle vertical brushwork. The forested slopes frame the central sky/valley, now in a wide landscape composition. Do not stretch the original circular artwork or leave a visible circle, vignette, oval, border, seam, or circular patch.
+Preserve the existing delicate white line logo: its distinctive hand-drawn pine tree rising to the left of the lettering, and the continuous long gently descending branch/horizon-like stroke extending above the wordmark toward the right. Maintain the original simple lower-case white wordmark reading exactly "forestory", not a new uppercase serif logo. Keep its visual relationship to the pine tree. Center this established logo lockup clearly in the wide rectangular composition with generous margins. It should be readable as a social link preview.
+Preserve the original supporting wording exactly "creative craftsmanship woodshop", but lay it out as one restrained straight horizontal baseline beneath the wordmark instead of wrapping it around a circle. Use small, widely spaced white letters matching the original character.
+Do not add other words, watermarks, icons, people, furniture, photographic effects, glossy mockups, or decorative borders. Faithfully extend and adapt the supplied existing identity; do not replace its artwork style or logo with the earlier generated concepts.

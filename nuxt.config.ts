@@ -4,12 +4,15 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ["~/assets/css/main.css"],
   routeRules: {
+    "/images/optimized/**": {
+      headers: { "cache-control": "public, max-age=31536000, immutable" },
+    },
     "/dsgn-archive": { redirect: { to: "/archive", statusCode: 301 } },
   },
   app: {
     head: {
       htmlAttrs: { lang: "en" },
-      title: "forestory furniture — designing furniture, connecting people",
+      title: "forestory furniture",
       meta: [{ name: "theme-color", content: "#005d49" }],
       link: [
         { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },

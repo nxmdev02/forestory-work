@@ -5,6 +5,8 @@
 .nitro
 .cache
 dist
+public/images/optimized/
+app/data/image-manifest.json
 
 # Node dependencies
 node_modules

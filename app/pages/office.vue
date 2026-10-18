@@ -79,9 +79,11 @@ onBeforeUnmount(() => {
       <section id="presentation" class="office-section">
         <h2 class="office-section-label">Presentation</h2>
         <h1>{{ office.title }}</h1>
-        <img
+        <ResponsiveImage
           class="office-banner"
           :src="office.image"
+          sizes="(max-width: 640px) calc(100vw - 32px), (max-width: 1000px) 73vw, 67vw"
+          loading="eager"
           alt="포레스토리 목공방 기계실의 작업대와 목공 설비"
           fetchpriority="high"
           width="1195"
@@ -99,9 +101,10 @@ onBeforeUnmount(() => {
         <div class="team-grid">
           <article v-for="person in office.team" :key="person.name">
             <div class="toned-image team-photo" :class="{ 'is-empty': !person.image }">
-              <img
+              <ResponsiveImage
                 v-if="person.image"
                 :src="person.image"
+                sizes="(max-width: 1000px) 50vw, 22vw"
                 :alt="person.name"
                 width="600"
                 height="600"
@@ -129,10 +132,11 @@ onBeforeUnmount(() => {
         <h2 class="office-section-label">Process</h2>
         <div class="process-layout">
           <div class="process-image">
-            <img
+            <ResponsiveImage
               v-for="(step, i) in office.process"
               :key="step.image"
               :src="step.image"
+              sizes="(max-width: 1000px) 27vw, 30vw"
               :alt="step.title"
               :class="{ active: activeStep === i }"
               :aria-hidden="activeStep !== i"
@@ -152,9 +156,10 @@ onBeforeUnmount(() => {
               <div>
                 <h3>{{ step.title }}</h3>
                 <p>{{ step.description }}</p>
-                <img
+                <ResponsiveImage
                   class="mobile-process-image"
                   :src="step.image"
+                  sizes="calc(100vw - 74px)"
                   :alt="step.title"
                   loading="lazy"
                   width="900"

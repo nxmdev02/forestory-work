@@ -43,7 +43,18 @@ npm run test:e2e
 
 모바일 메뉴는 햄버거 아이콘과 닫기 아이콘을 사용합니다. Projects·프로젝트 상세·Archive의 모바일 하단 Contact 바는 푸터로 이동하며, 푸터가 보이거나 메뉴가 열리면 숨깁니다. Office는 기존 Contact 바를 유지합니다. 헤더의 projects 버튼을 누르면 전체 프로젝트와 네 카테고리를 선택하는 메뉴가 열립니다. 모바일에서는 projects 아래로 카테고리가 펼쳐집니다. 목록 상단은 모든 화면에서 All·2026·2025·2024 연도 칩을 사용합니다. 선택 상태는 `/projects?category=premium-woodwork&year=2025`처럼 주소에 반영합니다. 카테고리를 바꾸면 연도는 All로 초기화하고 목록 상단으로 이동합니다.
 
+## 이미지 로딩 최적화
+
+`npm run dev`, `npm run build`, `npm run generate` 실행 시 앱에서 참조하는 로컬 사진의 크기별 WebP를 자동 생성합니다. 원본은 유지하며, `ResponsiveImage`가 `srcset`과 화면별 `sizes`로 필요한 크기를 선택합니다. 첫 화면 사진은 우선 로드하고 나머지는 지연 로드합니다. 메인 영상은 첫 이미지 로드가 끝난 후 시작하며 모션 감소 설정에서는 다운로드하지 않습니다.
+
+- `scripts/optimize-images.mjs`: 최대 1920px, 품질 80의 WebP 생성. 원본보다 확대하지 않습니다.
+- `public/images/optimized/`, `app/data/image-manifest.json`: 자동 생성 파일이며 Git에서 제외됩니다. 개발 중 사진을 추가·교체하면 개발 서버를 재시작합니다. 빌드에서는 항상 다시 확인합니다.
+- 생성 파일명에는 원본 내용과 변환 설정의 해시가 포함됩니다. 같은 사진은 캐시를 재사용하고, 원본 교체 시 새 주소로 갱신됩니다. Nuxt 서버는 이 경로에 1년 캐시를 적용합니다. 정적 호스팅에서는 동일한 캐시 헤더를 호스팅 설정에 적용할 수 있습니다.
+- 외부 URL이나 아직 생성되지 않은 사진은 원본 주소로 표시합니다.
+
 ## 수정 위치
+
+카카오톡 등 링크 공유 미리보기는 `app/app.vue`의 공통 Open Graph 설정을 사용합니다. 최종 선택한 숲 배경 로고는 `public/images/forestory-landscape-logo-v1.jpg`(1200×630)이며, 공개 이미지 주소와 대체 텍스트는 `app/data/site.ts`의 `shareImage`에서 관리합니다. 메인 공유 제목은 `forestory furniture`입니다. 이미지 교체 시 새 파일명을 사용하고 `shareImage.url`도 함께 갱신합니다.
 
 - `app/data/site.ts`: 브랜드, 연락처, 메뉴, 외부 링크, 서비스, 메인 장면 설정.
 - `app/data/reference.json`: 프로젝트 카드(`projects`), 공통 상세(`projectDetails`), 상품, 팀, 소개와 프로세스 데이터.
