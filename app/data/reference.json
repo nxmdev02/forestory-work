@@ -1,0 +1,845 @@
+{
+  "intro": {
+    "image": "/images/intro.webp",
+    "video": "/images/intro.mp4"
+  },
+  "projects": [
+    {
+      "slug": "woodslab-01",
+      "detailSlug": "premium-woodwork",
+      "title": "우드슬랩 테이블 01",
+      "thumbnail": "/images/woodslab-01.webp",
+      "image": "/images/woodslab-01.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "premium-woodwork"
+    },
+    {
+      "slug": "woodslab-02",
+      "detailSlug": "premium-woodwork",
+      "title": "우드슬랩 테이블 02",
+      "thumbnail": "/images/woodslab-02.webp",
+      "image": "/images/woodslab-02.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "premium-woodwork"
+    },
+    {
+      "slug": "woodslab-03",
+      "detailSlug": "premium-woodwork",
+      "title": "우드슬랩 테이블 03",
+      "thumbnail": "/images/woodslab-03.webp",
+      "image": "/images/woodslab-03.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2024"
+      },
+      "category": "premium-woodwork"
+    },
+    {
+      "slug": "woodslab-04",
+      "detailSlug": "premium-woodwork",
+      "title": "우드슬랩 테이블 04",
+      "thumbnail": "/images/woodslab-04.webp",
+      "image": "/images/woodslab-04.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2024"
+      },
+      "category": "premium-woodwork"
+    },
+    {
+      "slug": "heritage-01",
+      "detailSlug": "heritage-craft",
+      "title": "자개 리폼 01",
+      "thumbnail": "/images/heritage-01.webp",
+      "image": "/images/heritage-01.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "heritage-craft"
+    },
+    {
+      "slug": "heritage-02",
+      "detailSlug": "heritage-craft",
+      "title": "자개 리폼 02",
+      "thumbnail": "/images/heritage-02.webp",
+      "image": "/images/heritage-02.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "heritage-craft"
+    },
+    {
+      "slug": "heritage-03",
+      "detailSlug": "heritage-craft",
+      "title": "자개 리폼 03",
+      "thumbnail": "/images/heritage-03.webp",
+      "image": "/images/heritage-03.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026"
+      },
+      "category": "heritage-craft"
+    },
+    {
+      "slug": "heritage-04",
+      "detailSlug": "heritage-craft",
+      "title": "자개 리폼 04",
+      "thumbnail": "/images/heritage-04.webp",
+      "image": "/images/heritage-04.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026"
+      },
+      "category": "heritage-craft"
+    },
+    {
+      "slug": "commercial-01",
+      "detailSlug": "commercial-space",
+      "title": "상업가구 01",
+      "thumbnail": "/images/commercial-01.webp",
+      "image": "/images/commercial-01.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "commercial-space"
+    },
+    {
+      "slug": "commercial-02",
+      "detailSlug": "commercial-space",
+      "title": "상업가구 02",
+      "thumbnail": "/images/commercial-02.webp",
+      "image": "/images/commercial-02.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026"
+      },
+      "category": "commercial-space"
+    },
+    {
+      "slug": "commercial-03",
+      "detailSlug": "commercial-space",
+      "title": "상업가구 03",
+      "thumbnail": "/images/commercial-03.webp",
+      "image": "/images/commercial-03.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "commercial-space"
+    },
+    {
+      "slug": "commercial-04",
+      "detailSlug": "commercial-space",
+      "title": "상업가구 04",
+      "thumbnail": "/images/commercial-04.webp",
+      "image": "/images/commercial-04.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "commercial-space"
+    },
+    {
+      "slug": "media-drama-01",
+      "detailSlug": "media-drama-furniture",
+      "title": "드라마 가구 01",
+      "thumbnail": "/images/media-drama-01.webp",
+      "image": "/images/media-drama-01.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "media-drama-02",
+      "detailSlug": "media-drama-furniture",
+      "title": "드라마 가구 02",
+      "thumbnail": "/images/media-drama-02.webp",
+      "image": "/images/media-drama-02.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "media-drama-03",
+      "detailSlug": "media-drama-furniture",
+      "title": "드라마 가구 03",
+      "thumbnail": "/images/media-drama-03.webp",
+      "image": "/images/media-drama-03.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "media-drama-04",
+      "detailSlug": "media-drama-furniture",
+      "title": "드라마 가구 04",
+      "thumbnail": "/images/media-drama-04.webp",
+      "image": "/images/media-drama-04.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-01",
+      "detailSlug": "brand-pop-up",
+      "title": "지자체 소품 01",
+      "thumbnail": "/images/brand-popup-01.webp",
+      "image": "/images/brand-popup-01.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-02",
+      "detailSlug": "brand-pop-up",
+      "title": "지자체 소품 02",
+      "thumbnail": "/images/brand-popup-02.webp",
+      "image": "/images/brand-popup-02.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-03",
+      "detailSlug": "brand-pop-up",
+      "title": "지자체 소품 03",
+      "thumbnail": "/images/brand-popup-03.webp",
+      "image": "/images/brand-popup-03.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-04",
+      "detailSlug": "brand-pop-up",
+      "title": "지자체 소품 04",
+      "thumbnail": "/images/brand-popup-04.webp",
+      "image": "/images/brand-popup-04.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-05",
+      "detailSlug": "brand-pop-up",
+      "title": "행사 가판대 01",
+      "thumbnail": "/images/brand-popup-05.webp",
+      "image": "/images/brand-popup-05.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-06",
+      "detailSlug": "brand-pop-up",
+      "title": "행사 가판대 02",
+      "thumbnail": "/images/brand-popup-06.webp",
+      "image": "/images/brand-popup-06.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-07",
+      "detailSlug": "brand-pop-up",
+      "title": "행사 가판대 03",
+      "thumbnail": "/images/brand-popup-07.webp",
+      "image": "/images/brand-popup-07.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-08",
+      "detailSlug": "brand-pop-up",
+      "title": "행사 가판대 04",
+      "thumbnail": "/images/brand-popup-08.webp",
+      "image": "/images/brand-popup-08.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-09",
+      "detailSlug": "brand-pop-up",
+      "title": "브랜드 팝업 01",
+      "thumbnail": "/images/brand-popup-09.webp",
+      "image": "/images/brand-popup-09.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-10",
+      "detailSlug": "brand-pop-up",
+      "title": "브랜드 팝업 02",
+      "thumbnail": "/images/brand-popup-10.webp",
+      "image": "/images/brand-popup-10.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-11",
+      "detailSlug": "brand-pop-up",
+      "title": "브랜드 팝업 03",
+      "thumbnail": "/images/brand-popup-11.webp",
+      "image": "/images/brand-popup-11.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026"
+      },
+      "category": "media-pop-up"
+    },
+    {
+      "slug": "brand-popup-12",
+      "detailSlug": "brand-pop-up",
+      "title": "브랜드 팝업 04",
+      "thumbnail": "/images/brand-popup-12.webp",
+      "image": "/images/brand-popup-12.webp",
+      "objectPosition": "center bottom",
+      "mobileObjectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026"
+      },
+      "category": "media-pop-up"
+    }
+  ],
+  "archiveItems": [
+    {
+      "archiveNumber": "001",
+      "image": "",
+      "object": "",
+      "quantity": "1",
+      "wood": "",
+      "price": "",
+      "currency": "KRW",
+      "status": "available"
+    },
+    {
+      "archiveNumber": "002",
+      "image": "",
+      "object": "",
+      "quantity": "1",
+      "wood": "",
+      "price": "",
+      "currency": "KRW",
+      "status": "available"
+    },
+    {
+      "archiveNumber": "003",
+      "image": "",
+      "object": "",
+      "quantity": "1",
+      "wood": "",
+      "price": "",
+      "currency": "KRW",
+      "status": "available"
+    }
+  ],
+  "office": {
+    "title": "나무에 이야기를 담다.\n프리미엄 우드 스튜디오 포레스토리",
+    "image": "/images/forestory-workshop.webp",
+    "paragraphs": [
+      "Forest + Story\n소재의 본질에 공간 지속 가능한 가치를 만드는 포레스토리입니다.\n\n포레스토리는 단순히 목재를 가공하는 것에 그치지 않고, 공간의 가치를 높이고 사람의 삶에 스며드는 유일무이한 이야기를 만들어갑니다. 전통적인 목공예의 섬세한 핸드메이드 감성과 현대적인 공법(CNC)을 조화롭게 결합하여, 완성도 높은 결과물을 선보입니다.",
+      "\"고객과의 디테일하고 세심한 소통, 지속 가능한 재탄생\"\n포레스토리는 고객의 작은 니즈까지 놓치지 않는 깊이 있는 상담을 바탕으로, 상상 속의 공간과 가구를 완벽한 현실로 구현합니다."
+    ],
+    "team": [
+      {
+        "name": "백민규(Mingki)",
+        "role": "CEO",
+        "image": ""
+      },
+      {
+        "name": "김소연(Ari)",
+        "role": "Head Designer",
+        "image": ""
+      },
+      {
+        "name": "김재휘(Jack)",
+        "role": "Furniture Designer",
+        "image": ""
+      }
+    ],
+    "process": [
+      {
+        "title": "상담 및 방향 설정",
+        "description": "모든 협업은 대화에서 시작됩니다. 프로젝트의 비전과 지속 가능성 목표, 전반적인 방향을 함께 정하고, 고객의 브랜드와 가치, 지향점을 반영한 토대를 마련합니다.",
+        "image": "/images/process-0.webp"
+      },
+      {
+        "title": "예산 및 제안",
+        "description": "디자인 방향과 현실적인 조건이 균형을 이루도록 상세 예산과 제품 도면을 준비합니다. 가구의 각 요소를 세심하게 선정하고, 제작에 앞서 모든 내용을 명확하게 안내합니다.",
+        "image": "/images/process-2.webp"
+      },
+      {
+        "title": "제작 및 조율",
+        "description": "제안이 확정되면 도면, 발주 사항을 관리하고 조율합니다. 제작부터 설치까지 전 과정을 확인하며 정밀하고 일관된 품질을 유지합니다.",
+        "image": "/images/process-3.webp"
+      },
+      {
+        "title": "납품 및 마무리",
+        "description": "계획에 따라 모든 가구와 집기를 반입하고 조립·설치합니다. 검수와 최종 조정을 거쳐 바로 사용할 수 있는 완성된 공간을 인도합니다. 마지막 디테일까지 세심하게 살펴 프로젝트를 마무리합니다.",
+        "image": "/images/process-4.webp"
+      }
+    ]
+  },
+  "projectDetails": [
+    {
+      "slug": "premium-woodwork",
+      "title": "Premium Woodwork",
+      "image": "/images/woodslab-detail.webp",
+      "objectPosition": "center bottom",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2025, 2024"
+      },
+      "summary": "엄선된 최고급 우드슬랩을 바탕으로 프리미엄 가구를 제작합니다. 원목 고유의 무늬와 곡선을 살린 세심한 가공으로 완성도 높은 우드슬랩 테이블을 선보입니다.",
+      "paragraphs": [
+        "최상급 우드슬랩의 수종을 선별하는 것에서부터 가구 제작을 시작합니다.",
+        "표면 품질과 가구의 완성도를 높이기 위해 각 목재의 특성에 맞는 맞춤형 마감 공정을 적용합니다.",
+        "주거, 상업, 전시 등 공간의 성격에 구애받지 않고 자연스럽게 어우러지는 가구를 만듭니다."
+      ],
+      "gallery": [
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "slug": "heritage-craft",
+      "title": "Heritage Craft",
+      "image": "/images/heritage-coating.webp",
+      "objectPosition": "center",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026, 2025"
+      },
+      "summary": "고객이 소장한 자개장을 수거해 맞춤 리폼 가구로 제작합니다. 전통 자개 고유의 미학을 보존하는 섬세한 해체와 재가공으로, 오늘의 공간에 어울리는 모던 가구를 선보입니다.",
+      "paragraphs": [
+        "자개장의 상태를 진단하는 정밀 상담에서부터 제작을 시작합니다.",
+        "고객의 요구사항을 충실히 구현하기 위해 제작 과정 전반에 걸쳐 세심하게 소통합니다.",
+        "포레스토리의 독자적인 코팅 기술로 자개 고유의 아름다움을 살리고, 표면 품질과 내구성을 높입니다."
+      ],
+      "gallery": [
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "slug": "commercial-space",
+      "title": "Commercial Space",
+      "image": "/images/commercial-detail.webp",
+      "objectPosition": "center bottom",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026, 2025"
+      },
+      "summary": "공간의 분위기와 동선에 맞춰 상업가구를 디자인하고 제작합니다. 공간의 가치를 높이는 독자적인 맞춤 설계로, 카페와 매장에 어울리는 가구를 선보입니다.",
+      "paragraphs": [
+        "공간에 맞춘 설계로 카페와 매장의 브랜드 정체성을 살립니다.",
+        "체계적인 제작 공정을 바탕으로 대량 제작에서도 일관된 품질을 유지합니다.",
+        "세심한 현장 미팅과 정밀 실측을 통해 공간에 최적화된 가구 디자인을 구현합니다."
+      ],
+      "gallery": [
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "slug": "media-drama-furniture",
+      "title": "Media & Pop-up",
+      "image": "/images/media-drama-detail.webp",
+      "objectPosition": "center bottom",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026, 2025"
+      },
+      "summary": "드라마에 사용되는 가구와 소품을 맞춤 제작합니다. 현대극부터 시대극까지, 작품의 분위기와 연출 공간에 자연스럽게 어우러지는 가구를 선보입니다.",
+      "paragraphs": [
+        "드라마의 연출 의도와 공간의 조화를 고려해 가구와 소품을 설계합니다.",
+        "충분한 사전 미팅과 세밀한 디테일 설계로 제작 방향을 구체화합니다.",
+        "정밀한 가공과 세심한 제작으로 장면 속 공간을 완성합니다."
+      ],
+      "gallery": [
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        }
+      ]
+    },
+    {
+      "slug": "brand-pop-up",
+      "title": "Media & Pop-up",
+      "image": "/images/brand-popup-detail.webp",
+      "objectPosition": "center bottom",
+      "specs": {
+        "Location": "Korea",
+        "Wood": "-",
+        "Year": "2026, 2025"
+      },
+      "summary": "브랜드 팝업스토어와 행사장을 위한 가구와 가판대를 제작합니다. 지자체의 장소·행사 홍보 소품부터 여러 브랜드가 함께하는 행사 가구까지, 목적과 공간에 맞춘 제작을 진행합니다.",
+      "paragraphs": [
+        "전국 현장에 대응하고 작업 일정을 철저히 준수하며 신뢰를 쌓습니다.",
+        "CNC 정밀 가공을 기반으로 대량 제작에서도 균일한 품질을 유지합니다.",
+        "현장 도면과 요구사항을 반영해 유연하게 맞춤 제작을 기획합니다.",
+        "가구 디자인 전공 인력의 전문성을 바탕으로 세밀한 디테일까지 구현합니다."
+      ],
+      "gallery": [
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "src": "",
+          "colSpan": 1,
+          "alt": "",
+          "objectPosition": "center",
+          "width": 900,
+          "height": 1200
+        }
+      ]
+    }
+  ]
+}

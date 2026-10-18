@@ -1,0 +1,275 @@
+{
+  "source": "(포레스토리) 포트폴리오.pdf",
+  "assets": [
+    {
+      "file": "/images/woodslab-01.webp",
+      "page": 19,
+      "embeddedImageIndex": 2,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/woodslab-02.webp",
+      "page": 19,
+      "embeddedImageIndex": 5,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/woodslab-03.webp",
+      "page": 19,
+      "embeddedImageIndex": 4,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/woodslab-04.webp",
+      "page": 19,
+      "embeddedImageIndex": 3,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/woodslab-detail.webp",
+      "page": 18,
+      "embeddedImageIndex": 1,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/woodslab-selection.webp",
+      "page": 18,
+      "embeddedImageIndex": 0,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/woodslab-resin.webp",
+      "page": 18,
+      "embeddedImageIndex": 5,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/heritage-01.webp",
+      "page": 17,
+      "embeddedImageIndex": 2,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/heritage-02.webp",
+      "page": 17,
+      "embeddedImageIndex": 5,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/heritage-03.webp",
+      "page": 17,
+      "embeddedImageIndex": 4,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/heritage-04.webp",
+      "page": 17,
+      "embeddedImageIndex": 3,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/heritage-consultation.webp",
+      "page": 16,
+      "embeddedImageIndex": 1,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/heritage-coating.webp",
+      "page": 16,
+      "embeddedImageIndex": 2,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/heritage-finishing.webp",
+      "page": 16,
+      "embeddedImageIndex": 6,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/commercial-01.webp",
+      "page": 15,
+      "embeddedImageIndex": 2,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/commercial-02.webp",
+      "page": 15,
+      "embeddedImageIndex": 5,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/commercial-03.webp",
+      "page": 15,
+      "embeddedImageIndex": 4,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/commercial-04.webp",
+      "page": 15,
+      "embeddedImageIndex": 3,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/commercial-detail.webp",
+      "page": 14,
+      "embeddedImageIndex": 1,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/commercial-production.webp",
+      "page": 14,
+      "embeddedImageIndex": 0,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/commercial-custom.webp",
+      "page": 14,
+      "embeddedImageIndex": 5,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/commercial-measurement.webp",
+      "page": 14,
+      "embeddedImageIndex": 6,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/media-drama-01.webp",
+      "page": 13,
+      "embeddedImageIndex": 2,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/media-drama-02.webp",
+      "page": 13,
+      "embeddedImageIndex": 5,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/media-drama-03.webp",
+      "page": 13,
+      "embeddedImageIndex": 4,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/media-drama-04.webp",
+      "page": 13,
+      "embeddedImageIndex": 3,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/media-drama-detail.webp",
+      "page": 12,
+      "embeddedImageIndex": 1,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/media-drama-wongyeong.webp",
+      "page": 12,
+      "embeddedImageIndex": 0,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/media-drama-treasure.webp",
+      "page": 12,
+      "embeddedImageIndex": 2,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/media-drama-efficient-dating.webp",
+      "page": 12,
+      "embeddedImageIndex": 3,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-01.webp",
+      "page": 11,
+      "embeddedImageIndex": 2,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-02.webp",
+      "page": 11,
+      "embeddedImageIndex": 5,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-03.webp",
+      "page": 11,
+      "embeddedImageIndex": 4,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-04.webp",
+      "page": 11,
+      "embeddedImageIndex": 3,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-05.webp",
+      "page": 10,
+      "embeddedImageIndex": 2,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-06.webp",
+      "page": 10,
+      "embeddedImageIndex": 5,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-07.webp",
+      "page": 10,
+      "embeddedImageIndex": 4,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-08.webp",
+      "page": 10,
+      "embeddedImageIndex": 3,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-09.webp",
+      "page": 9,
+      "embeddedImageIndex": 2,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-10.webp",
+      "page": 9,
+      "embeddedImageIndex": 5,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-11.webp",
+      "page": 9,
+      "embeddedImageIndex": 4,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-12.webp",
+      "page": 9,
+      "embeddedImageIndex": 3,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-detail.webp",
+      "page": 8,
+      "embeddedImageIndex": 1,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-sns.webp",
+      "page": 8,
+      "embeddedImageIndex": 0,
+      "method": "Extracted embedded original image; encoded as WebP"
+    },
+    {
+      "file": "/images/brand-popup-cnc.webp",
+      "page": 8,
+      "embeddedImageIndex": 2,
+      "method": "Extracted embedded original image; encoded as WebP"
+    }
+  ]
+}
